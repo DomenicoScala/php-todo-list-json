@@ -1,0 +1,14 @@
+[
+    {
+        "todo": "Comprare il latte",
+        "status": false
+    },
+    {
+        "todo": "Comprare scarpe da calcio",
+        "status": false
+    },
+    {
+        "todo": "Prenotare campetto da calcio",
+        "status": true
+    }
+]
