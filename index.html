@@ -15,6 +15,13 @@
 
         <main id="app">  
             <div>
+                <input type="text" placeholder="Aggiungi todo" v-model="nuovoTodo">
+                <button @click="addTodo()">
+                    Aggiungi
+                </button>
+            </div>
+        
+            <div>
                 <ul>
                     <li v-for="elem in todos" :class="elem.status == true ? 'done' : '' ">
                         {{ elem.todo }}
